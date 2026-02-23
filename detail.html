@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chi Tiết - Tết Việt Nam</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700|Playfair+Display:400,700,900&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="page-detail">
+    
+    <!-- Minimal Navbar -->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top scrolled">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html#page-top">Tết Việt Nam</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-search-container">
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="navbar-search" placeholder="Tìm kiếm truyền thống, món ăn..." autocomplete="off">
+                    </div>
+                    <div id="search-results" class="search-results-dropdown"></div>
+                </div>
+                <ul class="nav-menu navbar-right">
+                    <li><a href="index.html#page-top">Trang Chủ</a></li>
+                    <li><a href="index.html#features">Đặc Sắc</a></li>
+                    <li><a href="index.html#about">Về Tết</a></li>
+                    <li><a href="index.html#activities">Hoạt Động</a></li>
+                    <li><a href="index.html#contact">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Magazine Content -->
+    <main class="magazine-container">
+        <div class="container">
+            <div class="row">
+                <!-- Left: Featured Content -->
+                <div class="col-md-8">
+                    <article class="featured-article">
+                        <div class="article-image-wrapper">
+                            <span class="category-badge" id="detail-category">Danh mục</span>
+                            <img id="detail-main-img" src="" alt="Featured Content">
+                        </div>
+                        <h1 id="detail-title" class="article-title">Đang tải tiêu đề...</h1>
+                        <div class="article-meta">
+                            <span id="detail-type-text"><i class="fa-solid fa-folder"></i> Đặc sắc Tết</span>
+                            <span><i class="fa-solid fa-clock"></i> 5 phút đọc</span>
+                        </div>
+                        <div class="article-body">
+                            <p id="detail-description">Đang tải nội dung chi tiết...</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Right: Sidebar -->
+                <div class="col-md-4">
+                    <aside class="magazine-sidebar">
+                        <h3 class="sidebar-heading">Nội dung liên quan</h3>
+                        <div id="sidebar-list" class="sidebar-list">
+                            <!-- Populated by JS -->
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- Bottom: Explore More / Trending -->
+            <section class="trending-section">
+                <div class="trending-header">
+                    <h2>Khám Phá Thêm</h2>
+                    <a href="index.html" class="see-more">Trang Chủ <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="row" id="trending-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="footer-minimal" class="text-center">
+        <div class="container">
+            <p>&copy; 2026 Tết Việt Nam. Toàn bộ bản quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Thư mục này dùng để chứa hình ảnh cho website.
+
+Cấu trúc đề xuất:
+- img/tet-traditional.jpg (ảnh cho phần About)
+- img/gallery/ (thư mục chứa ảnh gallery)
+- img/foods/ (thư mục chứa ảnh món ăn)
+
+Hiện tại website đang sử dụng placeholder images từ via.placeholder.com
+Bạn có thể thay thế bằng hình ảnh thật trong file js/data.js

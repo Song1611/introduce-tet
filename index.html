@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tết Nguyên Đán - Nét Đẹp Văn Hóa Việt Nam</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav id="menu" class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#page-top">Tết Việt Nam</a>
+        </div>
+        <div class="navbar-collapse" id="navbar-menu">
+          <div class="navbar-search-container">
+            <div class="search-input-wrapper">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" id="navbar-search" placeholder="Tìm kiếm truyền thống, món ăn..." autocomplete="off">
+            </div>
+            <div id="search-results" class="search-results-dropdown"></div>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#features" class="page-scroll">Đặc Sắc</a></li>
+            <li><a href="#about" class="page-scroll">Về Tết</a></li>
+            <li><a href="#traditions" class="page-scroll">Phong Tục</a></li>
+            <li><a href="#foods" class="page-scroll">Ẩm Thực</a></li>
+            <li><a href="#activities" class="page-scroll">Hoạt Động</a></li>
+            <li><a href="#contact" class="page-scroll">Liên Hệ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+      </div>
+      <div class="intro">
+        <div class="overlay">
+          <div class="container">
+            <div class="intro-text">
+              <h1>Tết Nguyên Đán<span></span></h1>
+              <p>Nét đẹp văn hóa truyền thống của dân tộc Việt Nam</p>
+              <a href="#features" class="btn-custom page-scroll"
+                >Khám Phá Ngay</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="text-center">
+      <div class="container">
+        <div class="section-title reveal-up">
+          <h2>Đặc Sắc Tết Việt</h2>
+        </div>
+        <div class="row" id="features-content">
+          <!-- Content will be loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 reveal-left">
+            <img
+              src="img/tet-nguyen-dan.webp"
+              class="img-responsive"
+              alt="Tết Truyền Thống"
+            />
+          </div>
+          <div class="col-md-6 reveal-right">
+            <div class="about-text">
+              <h2>Về Tết Nguyên Đán</h2>
+              <p id="about-paragraph"></p>
+              <h3>Tại Sao Tết Quan Trọng?</h3>
+              <div class="list-style">
+                <div class="col-lg-6">
+                  <ul id="why-list-1"></ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul id="why-list-2"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Traditions Section -->
+    <section id="traditions" class="text-center">
+      <div class="container">
+        <div class="section-title reveal-up">
+          <h2>Phong Tục Tập Quán</h2>
+          <p>Những phong tục truyền thống được lưu giữ qua nhiều thế hệ</p>
+        </div>
+        <div class="row" id="traditions-content">
+          <!-- Content will be loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Foods Section -->
+    <section id="foods">
+      <div class="container">
+        <div class="section-title text-center reveal-up">
+          <h2>Ẩm Thực Tết</h2>
+        </div>
+        <div class="row" id="foods-content">
+          <!-- Content will be loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="text-center">
+      <div class="container">
+        <div class="section-title reveal-up">
+          <h2>Hoạt Động Tết</h2>
+          <p>Những hoạt động vui chơi giải trí trong dịp Tết</p>
+        </div>
+        <div class="row" id="activities-content">
+          <!-- Content will be loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="text-center">
+      <div class="container">
+        <div class="section-title reveal-up">
+          <h2>Hình Ảnh Tết</h2>
+          <p>Những khoảnh khắc đẹp của ngày Tết cổ truyền</p>
+        </div>
+      </div>
+      <div id="gallery-content">
+        <!-- Marquee rows will be loaded by JS -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="section-title">
+              <h2>Liên Hệ Với Chúng Tôi</h2>
+              <p>
+                Hãy để lại thông tin nếu bạn muốn tìm hiểu thêm về Tết Việt Nam
+              </p>
+            </div>
+            <form id="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      placeholder="Họ và Tên"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Lời nhắn"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-custom">Gửi Tin Nhắn</button>
+            </form>
+          </div>
+          <div class="col-md-3 col-md-offset-1 contact-info">
+            <div class="contact-item reveal-up delay-1">
+              <h3>Thông Tin Liên Hệ</h3>
+              <p>
+                <span><i class="fa fa-map-marker"></i> Địa chỉ</span>
+                <span id="contact-address"></span>
+              </p>
+            </div>
+            <div class="contact-item reveal-up delay-2">
+              <p>
+                <span><i class="fa fa-phone"></i> Điện thoại</span>
+                <span id="contact-phone"></span>
+              </p>
+            </div>
+            <div class="contact-item reveal-up delay-3">
+              <p>
+                <span><i class="fa fa-envelope"></i> Email</span>
+                <span id="contact-email"></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#" id="social-facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" id="social-youtube"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" id="social-instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center">
+        <p>
+          &copy; 2026 Tết Việt Nam - Website Giới Thiệu Văn Hóa Tết Truyền Thống
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
