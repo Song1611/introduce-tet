@@ -206,8 +206,8 @@ const tetData = {
     
     contact: {
         address: "Nguyễn Huy Chương, Điện Bàn Đông, Đà Nẵng",
-        phone: "0905903332",
-        email: "doansong1611@gmail.com",
+        phone: "0905742360",
+        email: "XuanThanh@gmail.com",
         facebook: "https://www.facebook.com/oanxuanthanhh",
         youtube: "https://youtube.com",
         instagram: "https://instagram.com"
